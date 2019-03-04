@@ -1,0 +1,40 @@
+.goods{
+  margin: 0.16rem 0;
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li{
+      width: 49.5%;
+      height: 5.3rem;
+
+      a{
+        display: block;
+        img{
+          width: 100%;
+          height:100%;
+        }
+        .info{
+          text-indent: 0.5rem;
+          .goods_title{
+            font-size: 0.28rem;
+            color: rgba(0,0,0,.87);
+          }
+          .goods_des{
+            margin-top: .06rem;
+            font-size: .22rem;
+            line-height: .3rem;
+            color: rgba(0,0,0,.54);
+          }
+          .goods_price{
+            font-size: .28rem;
+            color: #ea625b;
+            height: 1.5em;
+            line-height: 1.5em;
+          }
+        }
+
+      }
+    }
+  }
+}
